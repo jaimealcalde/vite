@@ -1,4 +1,4 @@
-export const WinnerModal = (winner, resetGame) => {
+export const WinnerModal = ({winner, resetGame}) => {
   if (winner === null) return null
 
   const winnerText = winner === false ? 'Empate' : 'Ganó:'
